@@ -12,9 +12,9 @@ This analysis aims to provide insights into the relative impact of these factors
 ## Installation and Setup
 ### Prerequisites
 * **Python** 3.8 or higher.
-* **Anaconda**. This project uses several packages that are conveniently available through Anaconda. Download Anaconda. Alternatively, you can use pip to install the necessary packages.
+* **Anaconda**. [Download Anaconda](https://www.anaconda.com/download). This project uses several packages that are conveniently available through Anaconda. Download Anaconda. Alternatively, you can use pip to install the necessary packages.
 * **Jupyter Notebook** for running .ipynb files. It comes pre-installed with Anaconda, or you can install it separately if using pip:
-  ```
+  ```bash
   pip install notebook
   ```
 * **Required Python Libraries**:
@@ -27,31 +27,42 @@ This analysis aims to provide insights into the relative impact of these factors
   * scipy: For scientific computing.
   * statsmodels: For statistical modeling.
     * With Anaconda, you can install these packages using:
-      ```
+      ```bash
       conda install requests beautifulsoup4 pandas numpy seaborn matplotlib scikit-learn scipy statsmodels
       ```
     * If using pip, the libraries can be installed via:
-      ```
+      ```bash
       pip install requests beautifulsoup4 pandas numpy seaborn matplotlib scikit-learn scipy statsmodels
       ```
 * **SQL Magic and DuckDB**:
   * SQL magic is used for database operations within Jupyter notebooks, and DuckDB is an in-memory SQL database used in this project.
     * Install them using Anaconda:
-      ```
+      ```bash
       conda install -c conda-forge ipython-sql duckdb
       ```
     * Alternatively, they can installed using pip:
-      ```
+      ```bash
       pip install ipython-sql duckdb
       ```
 * **Setting Up a Virtual Environment (Optional but Recommended)**
   * To prevent potential conflicts with other Python projects or system-wide packages, consider using a virtual environment.
     * With Anaconda, create a new environment like this:
-      ```
+      ```bash
       conda create -n myenv python=3.8
       conda activate myenv
       ```
     * Install the necessary packages in this environment.
 
-    
+### Cloning the Repository
+To get started with the project, you first need to clone the repository to your local machine. Follow these steps:
+1. **Open Your Terminal or Command Line:** This can be the Terminal app on macOS or Linux, Command Prompt or PowerShell on Windows, or any other terminal application you prefer.
+2. **Clone the Repository:** Run the following command.
+   ```bash
+   git clone https://github.com/jeanie-liu/chess_win_predictor.git
+   ```
+3. **Navigate to the Project Directory:** After cloning, move into the project directory with this command:
+   ```bash
+   cd chess_win_predictor
+   ```
+With the repository cloned and ready, you can proceed with the installation of the project dependencies as outlined in the prerequisites.
  
