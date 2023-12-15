@@ -12,7 +12,7 @@ This analysis aims to provide insights into the relative impact of these factors
 ## Installation and Setup
 ### Prerequisites
 * **Python** 3.8 or higher.
-* **Anaconda**. [Download Anaconda](https://www.anaconda.com/download). This project uses several packages that are conveniently available through Anaconda. Download Anaconda. Alternatively, you can use pip to install the necessary packages.
+* **Anaconda**. [Download Anaconda](https://www.anaconda.com/download). This project uses several packages that are conveniently available through Anaconda. Alternatively, you can use pip to install the necessary packages.
 * **Jupyter Notebook** for running .ipynb files. It comes pre-installed with Anaconda, or you can install it separately if using pip:
   ```bash
   pip install notebook
