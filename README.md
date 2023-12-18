@@ -87,7 +87,8 @@ To work with these notebooks:
 - Open the notebook of your choice (`data_cleaning.ipynb` or `chess_win_likelihood_prediction_report.ipynb`).
 - You can either run the cells to execute the code or simply review the content and findings.
 
+## Credits and Contact
 
+This project was developed by Jeanie Liu, Aarya Tavshikar, Jonathan Gotian, and Conor Mervyn. For any queries regarding this project, please contact Jeanie Liu at hjeanieliu@gmail.com.
 
-
- 
+This project is no longer actively maintained. The repository serves as an archive of the work done and the findings of the analysis.
