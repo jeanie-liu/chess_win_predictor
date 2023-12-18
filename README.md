@@ -5,9 +5,9 @@
 
 Chess games are typically structured into three stages: the opening, the midgame, and the endgame. Among these, the opening moves are based on established patterns, each with its unique name and strategic implications. Additionally, the Elo rating system provides a standardized measure of a player's skill, ranging from 200 to 2800. This rating system calculates win probabilities based on the players' relative skill levels, represented by their Elo ratings.
 
-In this project, we analyze a dataset of approximately 6 million chess games played on Lichess, a popular online chess platform, during July 2016. We want to answer the following question: What better predicts the likelihood of winning a chess game - the opening strategy employed, the difference in Elo ratings between the players, or a combination of both?
+In this project, we analyze a dataset of approximately 6 million chess games played on Lichess, a popular online chess platform, during July 2016. We want to answer the following question: What better predicts the likelihood of winning a chess game - the opening strategy type employed, the difference in Elo ratings between the players, or a combination of both?
 
-This analysis aims to provide insights into the relative impact of these factors on game outcomes, offering a data-driven perspective to the ongoing debate among players and enthusiasts about the effectiveness of different chess openings and the role of player skill in determining game results.
+This analysis aims to provide insights into the relative impact of these factors on game outcomes, offering a data-driven perspective to the ongoing debate among players and enthusiasts about the effectiveness of different chess opening types and the role of player skill in determining game results.
 
 ## Installation and Setup
 ### Prerequisites
@@ -64,7 +64,7 @@ To get started with the project, you first need to clone the repository to your 
    ```bash
    cd chess_win_predictor
    ```
-With the repository cloned and ready, you can proceed with the installation of the project dependencies as outlined in the prerequisites.
+With the repository cloned and ready, you can proceed with installing the project dependencies as outlined in the prerequisites.
 
 ## Usage
 
@@ -85,7 +85,7 @@ To work with these notebooks:
 - Launch Jupyter Notebook or JupyterLab.
 - Navigate to the directory containing the project files.
 - Open the notebook of your choice (`data_cleaning.ipynb` or `chess_win_likelihood_prediction_report.ipynb`).
-- You can either run the cells to execute the code or simply review the content and findings.
+- You can either simply review the content and findings or run the cells to execute the code.
 
 ## Credits and Contact
 
