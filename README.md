@@ -65,4 +65,29 @@ To get started with the project, you first need to clone the repository to your 
    cd chess_win_predictor
    ```
 With the repository cloned and ready, you can proceed with the installation of the project dependencies as outlined in the prerequisites.
+
+## Usage
+
+This project consists of two main Jupyter notebooks:
+
+1. **Data Cleaning (`data_cleaning.ipynb`):**
+   - Download the required raw chess games dataset from Kaggle: [Chess Games Dataset](https://www.kaggle.com/datasets/arevel/chess-games).
+   - Place the downloaded dataset in the same directory as `data_cleaning.ipynb` or adjust the file path within the notebook accordingly.
+   - This notebook processes the raw data into `chess_games_cleaned.csv`. To view or run the data cleaning process, open `data_cleaning.ipynb` in Jupyter Notebook or JupyterLab.
+
+2. **Analysis and Reporting (`chess_win_likelihood_prediction_report.ipynb`):**
+   - This notebook uses `chess_games_cleaned.csv` from the `data` folder.
+   - You can use the provided `chess_games_cleaned.csv` in the `data` folder or generate it by running the `data_cleaning.ipynb` notebook. Ensure the file is correctly named and located.
+   - Open `chess_win_likelihood_prediction_report.ipynb` to either view the analysis and findings or run the notebook for a more interactive experience.
+
+To work with these notebooks:
+
+- Launch Jupyter Notebook or JupyterLab.
+- Navigate to the directory containing the project files.
+- Open the notebook of your choice (`data_cleaning.ipynb` or `chess_win_likelihood_prediction_report.ipynb`).
+- You can either run the cells to execute the code or simply review the content and findings.
+
+
+
+
  
