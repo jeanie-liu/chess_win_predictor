@@ -64,14 +64,13 @@ To get started with the project, you first need to clone the repository to your 
    ```bash
    cd chess_win_predictor
    ```
-With the repository cloned and ready, you can proceed with installing the project dependencies as outlined in the prerequisites.
-
+Once the repository is cloned, follow the instructions in the prerequisites section to install the necessary project dependencies.
 ## Usage
 
 This project consists of two main Jupyter notebooks:
 
 1. **Data Cleaning (`data_cleaning.ipynb`):**
-   - Download the required raw chess games dataset from Kaggle: [Chess Games Dataset](https://www.kaggle.com/datasets/arevel/chess-games).
+   - Download the required raw chess games dataset from Kaggle: [Chess Games Dataset](https://www.kaggle.com/datasets/arevel/chess-games). Log in or create an account if you don't have one since Kaggle requires an account for downloading data.
    - Place the downloaded dataset in the same directory as `data_cleaning.ipynb` or adjust the file path within the notebook accordingly.
    - This notebook processes the raw data into `chess_games_cleaned.csv`. To view or run the data cleaning process, open `data_cleaning.ipynb` in Jupyter Notebook or JupyterLab.
 
